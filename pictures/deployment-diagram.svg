@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1215 660" width="1215" height="660">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/></marker></defs>
+<rect width="1215" height="660" fill="white"/>
+<text x="607.5" y="26" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#222">Helper Dichiarazione 730 - deployment</text>
+<path d="M 20 60 L 32 48 L 887 48 L 887 628 L 875 640" fill="#e6e6e6" stroke="#888"/>
+<line x1="875" y1="60" x2="887" y2="48" stroke="#888"/>
+<rect x="20" y="60" width="855" height="580" fill="#fbfbfb" stroke="#888"/>
+<text x="30" y="78" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">«device»</text>
+<text x="30" y="95" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" font-style="normal" fill="#222">User's computer</text>
+<path d="M 45 120 L 57 108 L 267 108 L 267 258 L 255 270" fill="#e6e6e6" stroke="#888"/>
+<line x1="255" y1="120" x2="267" y2="108" stroke="#888"/>
+<rect x="45" y="120" width="210" height="150" fill="#f4f4f4" stroke="#888"/>
+<text x="55" y="138" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">«executionEnvironment»</text>
+<text x="55" y="155" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" font-style="normal" fill="#222">Web browser</text>
+<rect x="60" y="175" width="180" height="62" fill="white" stroke="#999"/>
+<path d="M 220 182 L 228 182 L 232 186 L 232 196 L 220 196 Z" fill="white" stroke="#777"/>
+<text x="68" y="191" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="normal" font-style="italic" fill="#666">«artifact»</text>
+<text x="68" y="208" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#222">single-page app</text>
+<text x="68" y="224" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">HTML, JS, CSS</text>
+<path d="M 290 120 L 302 108 L 862 108 L 862 608 L 850 620" fill="#e6e6e6" stroke="#888"/>
+<line x1="850" y1="120" x2="862" y2="108" stroke="#888"/>
+<rect x="290" y="120" width="560" height="500" fill="#f6f6f6" stroke="#888"/>
+<text x="300" y="138" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">«executionEnvironment»</text>
+<text x="300" y="155" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" font-style="normal" fill="#222">Docker Engine</text>
+<rect x="305" y="170" width="530" height="435" rx="6" fill="none" stroke="#999" stroke-dasharray="5 3"/>
+<text x="315" y="188" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">Compose network (DNS by service name)</text>
+<path d="M 320 215 L 332 203 L 512 203 L 512 333 L 500 345" fill="#e6e6e6" stroke="#888"/>
+<line x1="500" y1="215" x2="512" y2="203" stroke="#888"/>
+<rect x="320" y="215" width="180" height="130" fill="white" stroke="#888"/>
+<text x="330" y="233" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">«container»</text>
+<text x="330" y="250" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" font-style="normal" fill="#222">frontend</text>
+<text x="330" y="270" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">nginx:stable-alpine</text>
+<rect x="330" y="278" width="160" height="57" fill="white" stroke="#999"/>
+<path d="M 470 285 L 478 285 L 482 289 L 482 299 L 470 299 Z" fill="white" stroke="#777"/>
+<text x="338" y="294" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="normal" font-style="italic" fill="#666">«artifact»</text>
+<text x="338" y="311" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#222">static SPA files</text>
+<text x="338" y="327" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">nginx.conf</text>
+<path d="M 600 215 L 612 203 L 792 203 L 792 333 L 780 345" fill="#e6e6e6" stroke="#888"/>
+<line x1="780" y1="215" x2="792" y2="203" stroke="#888"/>
+<rect x="600" y="215" width="180" height="130" fill="white" stroke="#888"/>
+<text x="610" y="233" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">«container»</text>
+<text x="610" y="250" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" font-style="normal" fill="#222">backend</text>
+<text x="610" y="270" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">eclipse-temurin:25-jre</text>
+<rect x="610" y="278" width="160" height="57" fill="white" stroke="#999"/>
+<path d="M 750 285 L 758 285 L 762 289 L 762 299 L 750 299 Z" fill="white" stroke="#777"/>
+<text x="618" y="294" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="normal" font-style="italic" fill="#666">«artifact»</text>
+<text x="618" y="311" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#222">app.jar</text>
+<text x="618" y="327" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">Spring Boot</text>
+<path d="M 600 440 L 612 428 L 792 428 L 792 538 L 780 550" fill="#e6e6e6" stroke="#888"/>
+<line x1="780" y1="440" x2="792" y2="428" stroke="#888"/>
+<rect x="600" y="440" width="180" height="110" fill="white" stroke="#888"/>
+<text x="610" y="458" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">«container»</text>
+<text x="610" y="475" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" font-style="normal" fill="#222">db</text>
+<text x="610" y="495" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">postgres:16-alpine</text>
+<path d="M 370 473 L 370 517 A 55 8 0 0 0 480 517 L 480 473" fill="#eeeeee" stroke="#999"/>
+<ellipse cx="425" cy="473" rx="55" ry="8" fill="#e4e4e4" stroke="#999"/>
+<text x="425" y="497" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="normal" font-style="italic" fill="#666">«volume»</text>
+<text x="425" y="513" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#222">pgdata</text>
+<path d="M 945 120 L 957 108 L 1202 108 L 1202 298 L 1190 310" fill="#e6e6e6" stroke="#888"/>
+<line x1="1190" y1="120" x2="1202" y2="108" stroke="#888"/>
+<rect x="945" y="120" width="245" height="190" fill="#f4f4f4" stroke="#888"/>
+<text x="955" y="138" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">«node»</text>
+<text x="955" y="155" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" font-style="normal" fill="#222">GitHub Container Registry</text>
+<text x="955" y="172" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#555">ghcr.io</text>
+<rect x="960" y="182" width="215" height="52" fill="white" stroke="#999"/>
+<path d="M 1155 189 L 1163 189 L 1167 193 L 1167 203 L 1155 203 Z" fill="white" stroke="#777"/>
+<text x="968" y="198" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="normal" font-style="italic" fill="#666">«artifact»</text>
+<text x="968" y="215" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#222">helper-730-frontend image</text>
+<rect x="960" y="242" width="215" height="52" fill="white" stroke="#999"/>
+<path d="M 1155 249 L 1163 249 L 1167 253 L 1167 263 L 1155 263 Z" fill="white" stroke="#777"/>
+<text x="968" y="258" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="normal" font-style="italic" fill="#666">«artifact»</text>
+<text x="968" y="275" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#222">helper-730-backend image</text>
+<path d="M 255 252 L 320 275" fill="none" stroke="#555" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="60" y="258" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#333">HTTP, localhost:3000</text>
+<path d="M 512 300 L 600 300" fill="none" stroke="#555" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="556" y="285" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#333">HTTP /api</text>
+<text x="556" y="320" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#333">backend:8080</text>
+<path d="M 690 345 L 690 440" fill="none" stroke="#555" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="700" y="385" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#333">JDBC</text>
+<text x="700" y="400" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#333">db:5432</text>
+<path d="M 600 500 L 480 500" fill="none" stroke="#555" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="540" y="490" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#333">stores data</text>
+<path d="M 945 260 L 865 260" fill="none" stroke="#555" stroke-width="1.4" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<text x="905" y="250" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#333">docker pull</text>
+</svg>

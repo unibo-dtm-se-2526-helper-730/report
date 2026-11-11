@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1210 700" width="1210" height="700">
+<rect width="1210" height="700" fill="white"/>
+<text x="605.0" y="28" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="normal" font-style="normal" fill="#222">Helper Dichiarazione 730 - context map</text>
+<rect x="20" y="260" width="160" height="100" rx="10" fill="white" stroke="#888" stroke-dasharray="6 4"/>
+<text x="100.0" y="294.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#333">Broker exports</text>
+<text x="100.0" y="313.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">Revolut CSV</text>
+<text x="100.0" y="332.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">Trade Republic CSV</text>
+<rect x="250" y="245" width="190" height="130" rx="28" fill="#eef3f6" stroke="#335c67" stroke-width="2"/>
+<text x="345.0" y="294.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#1f3c44">Ingestion</text>
+<text x="345.0" y="313.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">parser, row, row issue,</text>
+<text x="345.0" y="332.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">import batch</text>
+<rect x="520" y="70" width="210" height="120" rx="28" fill="#eef3f6" stroke="#335c67" stroke-width="2"/>
+<text x="625.0" y="114.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#1f3c44">Instruments</text>
+<text x="625.0" y="133.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">instrument, asset class,</text>
+<text x="625.0" y="152.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">government bond share</text>
+<rect x="520" y="245" width="210" height="130" rx="28" fill="#eef3f6" stroke="#335c67" stroke-width="2"/>
+<text x="625.0" y="294.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#1f3c44">Taxation</text>
+<text x="625.0" y="313.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">disposal, taxable event,</text>
+<text x="625.0" y="332.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">treatment, capital loss</text>
+<rect x="520" y="470" width="210" height="120" rx="28" fill="#eef3f6" stroke="#335c67" stroke-width="2"/>
+<text x="625.0" y="514.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#1f3c44">Wealth tax</text>
+<text x="625.0" y="533.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">holding period,</text>
+<text x="625.0" y="552.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">year-end price, IVAFE row</text>
+<rect x="810" y="245" width="190" height="130" rx="28" fill="#eef3f6" stroke="#335c67" stroke-width="2"/>
+<text x="905.0" y="294.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#1f3c44">Declaration</text>
+<text x="905.0" y="313.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">quadro, rigo,</text>
+<text x="905.0" y="332.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">declaration item</text>
+<rect x="1060" y="260" width="135" height="100" rx="10" fill="white" stroke="#888" stroke-dasharray="6 4"/>
+<text x="1127.5" y="294.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#333">Modello 730</text>
+<text x="1127.5" y="313.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">Agenzia delle</text>
+<text x="1127.5" y="332.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="italic" fill="#555">Entrate</text>
+<rect x="545" y="400" width="160" height="46" rx="6" fill="#fff8e6" stroke="#b08a2e"/>
+<text x="625" y="418" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#7a5c12">Shared kernel</text>
+<text x="625" y="435" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#7a5c12">Transaction, Lot, LotBook</text>
+<path d="M 625 375 L 625 400" fill="none" stroke="#555" stroke-width="1.6"/>
+<path d="M 625 446 L 625 470" fill="none" stroke="#555" stroke-width="1.6"/>
+<path d="M 180 310 L 250 310" fill="none" stroke="#555" stroke-width="1.6"/>
+<rect x="189.0" y="300" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="198" y="314" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">U</text>
+<rect x="223.0" y="300" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="232" y="314" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">D</text>
+<rect x="215.0" y="277" width="34" height="20" rx="4" fill="#f2f2f2" stroke="#555"/>
+<text x="232" y="291" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">ACL</text>
+<path d="M 345 245 L 345 130 L 520 130" fill="none" stroke="#555" stroke-width="1.6"/>
+<rect x="336.0" y="218" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="345" y="232" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">U</text>
+<rect x="493.0" y="120" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="502" y="134" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">D</text>
+<text x="430" y="122" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="white" stroke-width="4">new tickers</text>
+<path d="M 440 310 L 520 310" fill="none" stroke="#555" stroke-width="1.6"/>
+<rect x="449.0" y="300" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="458" y="314" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">U</text>
+<rect x="493.0" y="300" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="502" y="314" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">D</text>
+<text x="480" y="296" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="white" stroke-width="4">transactions</text>
+<path d="M 345 375 L 345 530 L 520 530" fill="none" stroke="#555" stroke-width="1.6"/>
+<rect x="336.0" y="382" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="345" y="396" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">U</text>
+<rect x="493.0" y="520" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="502" y="534" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">D</text>
+<text x="430" y="522" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="white" stroke-width="4">transactions</text>
+<path d="M 625 190 L 625 245" fill="none" stroke="#555" stroke-width="1.6"/>
+<rect x="616.0" y="197" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="625" y="211" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">U</text>
+<rect x="616.0" y="218" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="625" y="232" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">D</text>
+<text x="645" y="222" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="white" stroke-width="4">classification</text>
+<path d="M 730 130 L 905 130 L 905 245" fill="none" stroke="#555" stroke-width="1.6"/>
+<rect x="739.0" y="120" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="748" y="134" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">U</text>
+<rect x="896.0" y="218" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="905" y="232" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">D</text>
+<text x="820" y="122" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="white" stroke-width="4">ISIN, asset class</text>
+<path d="M 730 310 L 810 310" fill="none" stroke="#555" stroke-width="1.6"/>
+<rect x="739.0" y="300" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="748" y="314" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">U</text>
+<rect x="783.0" y="300" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="792" y="314" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">D</text>
+<text x="770" y="296" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="white" stroke-width="4">tax result</text>
+<path d="M 730 530 L 905 530 L 905 375" fill="none" stroke="#555" stroke-width="1.6"/>
+<rect x="739.0" y="520" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="748" y="534" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">U</text>
+<rect x="896.0" y="382" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="905" y="396" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">D</text>
+<text x="820" y="522" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="white" stroke-width="4">IVAFE result</text>
+<path d="M 1000 310 L 1060 310" fill="none" stroke="#555" stroke-width="1.6"/>
+<rect x="1033.0" y="300" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="1042" y="314" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">U</text>
+<rect x="1009.0" y="300" width="18" height="20" rx="4" fill="white" stroke="#555"/>
+<text x="1018" y="314" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">D</text>
+<rect x="1029.0" y="277" width="26" height="20" rx="4" fill="#f2f2f2" stroke="#555"/>
+<text x="1042" y="291" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">PL</text>
+<rect x="1005.0" y="323" width="26" height="20" rx="4" fill="#f2f2f2" stroke="#555"/>
+<text x="1018" y="337" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#333">CF</text>
+<rect x="20" y="632" width="470" height="62" rx="6" fill="#fafafa" stroke="#ccc"/>
+<text x="35" y="652" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#222">U / D</text>
+<text x="85" y="652" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#444">upstream / downstream</text>
+<text x="270" y="652" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#222">ACL</text>
+<text x="320" y="652" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#444">anti-corruption layer</text>
+<text x="35" y="676" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#222">PL</text>
+<text x="85" y="676" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#444">published language</text>
+<text x="270" y="676" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#222">CF</text>
+<text x="320" y="676" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#444">conformist</text>
+<rect x="510" y="632" width="200" height="62" rx="6" fill="#fafafa" stroke="#ccc"/>
+<rect x="523" y="644" width="24" height="14" rx="5" fill="#eef3f6" stroke="#335c67" stroke-width="2"/>
+<text x="555" y="655" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#222">bounded context</text>
+<rect x="523" y="666" width="24" height="14" rx="3" fill="white" stroke="#888" stroke-dasharray="4 3"/>
+<text x="555" y="677" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#222">external system</text>
+</svg>
