@@ -15,8 +15,7 @@ analysis.
 
 The system follows a **layered** style, at two levels:
 
-- **between processes**, it is a classic three-tier application: presentation (the
-  browser), logic (the web service) and data (the database);
+- **between processes**, it is a classic three-tier application: presentation (the React single-page app, served by nginx and running in the browser), logic (the web service) and data (the database);
 - **inside the web service**, the code is split into layers, each depending only on the
   ones below it.
 
@@ -80,13 +79,13 @@ There are no load balancers, caches, queues or message brokers:there is one user
 
 #### Bounded contexts
 
-| Context         | Purpose                                                   | Main concepts                                                                                            |
-| --------------- | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **Ingestion**   | Bring broker data into the system.                        | Broker file, row, parser, row issue, import batch                                                        |
-| **Instruments** | Know what each security is, for tax purposes.             | Instrument, asset class, government bond share, foreign withholding rate                                 |
-| **Taxation**    | Compute the substitute tax and the tax loss carryforward. | Lot, disposal, lot consumption, taxable event, income category, treatment, capital loss, tax year result |
-| **Wealth tax**  | Compute IVAFE on foreign holdings.                        | Holding period, year-end price, IVAFE row                                                                |
-| **Declaration** | Express results in the language of the tax form.          | Quadro, rigo, declaration item, warning                                                                  |
+| Context | Purpose | Main concepts |
+|:--|:--|:--|
+| **Ingestion** | Bring broker data into the system. | Broker file, row, parser, row issue, import batch |
+| **Instruments** | Know what each security is, for tax purposes. | Instrument, asset class, government bond share, foreign withholding rate |
+| **Taxation** | Compute the substitute tax and the tax loss carryforward. | Lot, disposal, lot consumption, taxable event, income category, treatment, capital loss, tax year result |
+| **Wealth tax** | Compute IVAFE on foreign holdings. | Holding period, year-end price, IVAFE row |
+| **Declaration** | Express results in the language of the tax form. | Quadro, rigo, declaration item, warning |                                                              |
 
 **Relations between contexts.**
 
@@ -110,18 +109,18 @@ There are no load balancers, caches, queues or message brokers:there is one user
 
 #### Domain concepts
 
-| Concept                                        | Kind                   | Notes                                                                                                                                    |
-| ---------------------------------------------- | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| `Transaction`                                  | Entity                 | Identity: hash of the normalized row (or of the broker transaction id), so re-importing the same row gives the same identity. Immutable. |
-| `Instrument`                                   | Entity, aggregate root | Identity: ticker. Holds the classification chosen by the user.                                                                           |
-| `ImportBatch` | Entity | One import: file, broker, date, counters. Each stored transaction refers to the batch that brought it in. It belongs to the Ingestion context but has no domain class: the tax calculation never needs it, so it exists only as a persistence entity. |                                                      |
-| `Lot`                                          | Value object           | Units bought with one purchase and not yet sold, with cost including and excluding fees.                                                 |
-| `Disposal`, `LotConsumption`                   | Value objects          | A sale matched to the lots it consumed: the audit trail of each gain.                                                                    |
-| `TaxableEvent`                                 | Value object           | A sale or an income payment with its income category and taxable share.                                                                  |
-| `Treatment`                                    | Value object           | Income category plus taxable share (e.g. miscellaneous, 48.08%).                                                                         |
-| `CapitalLoss`                                  | Value object           | A loss in the carryforward: year, amount, residual, last usable year.                                                                    |
-| `ZainettoYear`, `TaxYearResult`, `IvafeResult` | Value objects          | Results of a year, never stored.                                                                                                         |
-| `Declaration`, `DeclarationItem`               | Value objects          | Values to write in the tax form.                                                                                                         |
+| Concept | Kind | Notes |
+|:--|:--|:--|
+| `Transaction` | Entity | **Identity:** hash of the normalized row (or of the broker transaction id), so re-importing the same row gives the same identity. Immutable. |
+| `Instrument` | Entity, aggregate root | **Identity:** ticker. Holds the classification chosen by the user. |
+| `ImportBatch` | Entity | One import: file, broker, date, counters. Each stored transaction refers to the batch that brought it in. It belongs to the *Ingestion* context but has no domain class: the tax calculation never needs it, so it exists only as a persistence entity. |
+| `Lot` | Value object | Units bought with one purchase and not yet sold, with cost including and excluding fees. |
+| `Disposal`, `LotConsumption` | Value objects | A sale matched to the lots it consumed: the audit trail of each gain. |
+| `TaxableEvent` | Value object | A sale or an income payment with its income category and taxable share. |
+| `Treatment` | Value object | Income category plus taxable share (e.g. miscellaneous, 48.08%). |
+| `CapitalLoss` | Value object | A loss in the carryforward: year, amount, residual, last usable year. |
+| `ZainettoYear`, `TaxYearResult`, `IvafeResult` | Value objects | Results of a year, never stored. |
+| `Declaration`, `DeclarationItem` | Value objects | Values to write in the tax form. |
 
 **Repositories:** transactions, instruments, import batches, year-end prices, carried
 losses.

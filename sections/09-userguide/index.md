@@ -30,7 +30,7 @@ Drag the CSV onto the box, or click **choose a file**. The application recognise
 - **Duplicates**: rows already imported before. Uploading the same file again, or a newer export that overlaps the old one, is safe and adds nothing twice;
 - **Rows with errors**: rows that could not be imported, listed with their row number and the reason (for example a corporate action such as a stock split, or a currency other than euro). The other rows are imported anyway. *Warnings* (for example an unusually high fee) do not stop the row from being imported.
 
-  <figure>
+<figure>
   <img src="../../pictures/p1-import.png" alt="Import page with the report of an imported file and the import history">
   <figcaption><strong>Import.</strong> The report of the last import (imported rows, duplicates,
   rows with errors) and the history of the files imported so far.</figcaption>

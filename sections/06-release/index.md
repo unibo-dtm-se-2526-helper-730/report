@@ -114,4 +114,4 @@ pairs work together.
 - *GitHub Releases:* created by semantic-release together with the tag, with release
   notes grouped by type (features, bug fixes) and links to the pull requests.
 
-So far the project has been released from **v0.1.0** to **v0.6.2**.
+So far the project has been released from **v0.1.0** to **v0.7.0**.

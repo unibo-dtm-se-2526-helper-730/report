@@ -83,22 +83,22 @@ where, nor how to compute them from her broker statement.
 
 ## Glossary
 
-| Term                           | Meaning                                                                                                                                               |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Modello 730**                | The simplified annual income tax return for employees and pensioners in Italy.                                                                        |
-| **Quadro / rigo**              | A section of the tax return / a row within a section (e.g. quadro T, rigo T11).                                                                       |
-| **Regime dichiarativo**        | Self-reporting regime: the investor computes and declares the taxes on their investments. It applies when the broker does not withhold Italian taxes. |
-| **Regime amministrato**        | Regime in which an Italian intermediary computes and withholds the taxes for the investor.                                                            |
-| **Imposta sostitutiva**        | Flat substitute tax on financial income, 26% (12.5% on government bonds).                                                                             |
-| **Redditi diversi**            | Miscellaneous income: gains and losses from selling securities. Gains and losses can offset each other.                                               |
-| **Redditi di capitale**        | Capital income: dividends, coupons, gains on fund units. Taxed on the gross amount, never offset by losses.                                           |
-| **Plusvalenza / minusvalenza** | Capital gain / capital loss on a sale.                                                                                                                |
-| **Zainetto fiscale**           | Tax loss carryforward: losses not yet offset, usable against miscellaneous gains until the fourth following year.                                     |
-| **LIFO**                       | Last-In, First-Out: the securities bought most recently are deemed to be sold first.                                                                  |
-| **Weighted average cost**      | Cost of a sale computed on the average purchase price of all the units held.                                                                          |
-| **Lot**                        | The units bought with one purchase and not yet sold.                                                                                                  |
-| **UCITS ETF**                  | Exchange-traded fund compliant with the EU UCITS directive (_OICR armonizzato_).                                                                      |
-| **White list**                 | List of states that exchange tax information with Italy; their government bonds are taxed at 12.5%.                                                   |
-| **IVAFE**                      | Wealth tax on financial assets held abroad, 0.2% a year of their value.                                                                               |
-| **ETC / ETN**                  | Exchange-traded commodity / note: listed securities that track a commodity or an index.                                                               |
-| **ISIN**                       | International code that identifies a security; its first two letters give the country of the issuer.                                                  |
+| Term | Meaning |
+|---|---|
+| Form 730<br>*Modello 730* | The simplified annual income tax return for employees and pensioners in Italy. |
+| Section / line<br>*Quadro / rigo* | A section of the tax return / a row within a section (e.g. quadro T, rigo T11). |
+| Self-reporting regime<br>*Regime dichiarativo* | The investor computes and declares the taxes on their investments. It applies when the broker does not withhold Italian taxes. |
+| Managed regime<br>*Regime amministrato* | Regime in which an Italian intermediary computes and withholds the taxes for the investor. |
+| Substitute tax<br>*Imposta sostitutiva* | Flat tax on financial income, 26% (12.5% on government bonds). |
+| Miscellaneous income<br>*Redditi diversi* | Gains and losses from selling securities. Gains and losses can offset each other. |
+| Capital income<br>*Redditi di capitale* | Dividends, coupons, gains on fund units. Taxed on the gross amount, never offset by losses. |
+| Capital gain / capital loss<br>*Plusvalenza / minusvalenza* | Gain or loss realised on a sale. |
+| Tax loss carryforward<br>*Zainetto fiscale* | Losses not yet offset, usable against miscellaneous gains until the fourth following year. |
+| LIFO<br>*LIFO (ultimo entrato, primo uscito)* | Last-In, First-Out: the securities bought most recently are deemed to be sold first. |
+| Weighted average cost<br>*Costo medio ponderato* | Cost of a sale computed on the average purchase price of all the units held. |
+| Lot<br>*Lotto* | The units bought with one purchase and not yet sold. |
+| UCITS ETF<br>*ETF armonizzato (OICR armonizzato)* | Exchange-traded fund compliant with the EU UCITS directive. |
+| White list<br>*White list (Paesi collaborativi)* | List of states that exchange tax information with Italy; their government bonds are taxed at 12.5%. |
+| Tax on foreign financial assets<br>*IVAFE* | Wealth tax on financial assets held abroad, 0.2% a year of their value. |
+| ETC / ETN<br>*ETC / ETN* | Exchange-traded commodity / note: listed securities that track a commodity or an index. |
+| ISIN<br>*Codice ISIN* | International code that identifies a security; its first two letters give the country of the issuer. |                                                |

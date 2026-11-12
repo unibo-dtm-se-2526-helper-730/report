@@ -26,7 +26,8 @@ workflows.
 ### Commit messages
 
 Commits follow **[Conventional Commits](https://www.conventionalcommits.org/)**:
-<type>(<scope>): <description>
+
+`<type>(<scope>): <description>`
 
 
 - **type**: `feat` (new feature), `fix` (bug fix), `test`, `docs`, `style` (formatting
