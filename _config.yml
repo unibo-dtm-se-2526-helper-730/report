@@ -10,3 +10,5 @@ defaults:
       path: ""
     values:
       layout: default
+mermaid:
+  version: "12.3.0"

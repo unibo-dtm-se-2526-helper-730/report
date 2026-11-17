@@ -21,6 +21,23 @@ The system follows a **layered** style, at two levels:
 
 A layered style fits because the problem is a pipeline with one direction: files come in, data is stored, results are computed and shown. There are no independent actors reacting to each other, so an **event-based** style would add complexity (brokers, asynchronous delivery, eventual consistency) without benefits: the user always waits for the answer to the action they just made. A **shared dataspace** fits systems where many components cooperate on common data, while here a single service owns the data. An **object-based** style (distributed objects) would expose the internals of the tax engine over the network, which is not needed.
 
+<figure markdown="1">
+
+```mermaid
+flowchart TB
+    user([Taxpayer]) --> spa["Single-page app<br/>React, in the browser"]
+    spa -- "HTTP / JSON" --> proxy["Reverse proxy<br/>nginx"]
+    proxy -- "/api/v1" --> shell
+    subgraph ws["Web service (Spring Boot)"]
+        direction TB
+        shell["API, services, ingestion,<br/>persistence"] --> core["Framework-free core<br/>tax engine + domain"]
+    end
+    shell -- SQL --> db[("PostgreSQL")]
+```
+
+<figcaption><strong>High-level overview of the architecture.</strong></figcaption>
+</figure>
+
 ### Framework-free core
 
 Inside the web service, the layers are arranged around a **framework-free core**, following the *functional core, imperative shell* pattern. The tax rules are the most valuable and most delicate part of the system: they must be easy to test and must not change when the web framework, the database or a broker format changes. So the **domain** and **engine** packages contain plain Java only: the engine depends only on the domain, and the domain on nothing else. An automated architecture test fails the build if they depend on Spring, JPA, validation or JSON libraries, or if the domain depends on any other layer.
@@ -31,9 +48,9 @@ All input and output happens in the surrounding layers: the **api** layer handle
 This is close to a hexagonal architecture, but simpler: the core does not define ports that the outer layers implement, because it never needs to fetch data on its own. It is given everything it needs, which keeps it deterministic and easy to test with plain unit tests.
 
 <figure>
-  <img src="../../pictures/component-diagram.svg"
-       alt="Component diagram: browser, reverse proxy and the layers of the web service around a framework-free core">
-  <figcaption><strong>Component diagram.</strong> The browser talks only to the reverse proxy, which forwards API calls to the web service. Inside the service, every dependency points towards the framework-free core (engine and domain), a rule enforced by an automated architecture test; only the persistence layer accesses the database.</figcaption>
+  <img src="../../pictures/functional-core.svg"
+       alt="Functional core, imperative shell: engine and domain inside, the I/O layers around them">
+  <figcaption><strong>Functional core, imperative shell.</strong> The core (engine and domain) contains only pure calculations in plain Java. All input and output happens in the shell around it, and every dependency points inwards: the core knows nothing of the web framework, the files or the database.</figcaption>
 </figure>
 
 ### Components and responsibilities
@@ -50,6 +67,12 @@ This is close to a hexagonal architecture, but simpler: the core does not define
 | **persistence**                | JPA entities, repositories and database migrations; maps between entities and domain objects.                                             |
 | **i18n**                       | Translates the messages produced by the core (codes with parameters) into Italian or English.                                             |
 | **Database**                   | Stores transactions, instruments, prices and losses entered by the user.                                                                  |
+
+<figure>
+  <img src="../../pictures/component-diagram.svg"
+       alt="Component diagram: browser, reverse proxy and the layers of the web service around a framework-free core">
+  <figcaption><strong>Component diagram.</strong> The browser talks only to the reverse proxy, which forwards API calls to the web service. Inside the service, every dependency points towards the framework-free core (engine and domain), a rule enforced by an automated architecture test; only the persistence layer accesses the database.</figcaption>
+</figure>
 
 ## Infrastructure
 
